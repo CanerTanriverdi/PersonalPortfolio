@@ -124,3 +124,11 @@ ul li a:hover {
 .socialMedia .youtube a:hover {
   background: #fe0000;
 }
+
+.header-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+}
