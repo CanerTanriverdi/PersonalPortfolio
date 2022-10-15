@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.3rem;
+}
+
+.contact {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+}
+
+ul {
+  margin-left: 60px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-flex;
+  line-height: 100px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+ul li a:hover {
+  color: gray;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.logo img {
+  height: 100px;
+  width: 150px;
+}
+
+.logoName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMedia {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.socialMedia div {
+  display: flex;
+  align-items: center;
+}
+
+.socialMedia div a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  font-size: 20px;
+  color: #000;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMedia a i {
+  transition: 0.5s all;
+}
+
+.socialMedia a:hover > i {
+  transform: scale(1.6) rotate(360deg);
+}
+
+.socialMedia .facebook a:hover {
+  background: #4267b2;
+}
+
+.socialMedia .twitter a:hover {
+  background: #1da1f2;
+}
+.socialMedia .google a:hover {
+  background: #d34c3d;
+}
+.socialMedia .instagram a:hover {
+  background: #7315c6;
+}
+.socialMedia .youtube a:hover {
+  background: #fe0000;
+}
