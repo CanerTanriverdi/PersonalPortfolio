@@ -218,11 +218,52 @@ hr {
   margin: 0 200px 0 200px;
 }
 
-.myAvantage {
+.avantage {
   display: flex;
   justify-content: center;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 5rem;
-  margin: 100px;
+  margin: 100px 0 100px 0;
+}
+
+.myAvantage {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+.company {
+  display: flex;
+  width: 230px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skills {
+  background-color: gray;
+  border-radius: 40%;
+  height: 250px;
+  width: 150px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skillLogo img {
+  height: 100px;
+  width: 100px;
+}
+
+.skillPercent {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+}
+
+.companyName {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.1rem;
 }
