@@ -303,3 +303,22 @@ hr {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.6rem;
 }
+
+.projects {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  margin: 100px;
+}
+
+.myprojects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project img {
+  height: 600px;
+  width: 600px;
+  margin-bottom: 100px;
+}
