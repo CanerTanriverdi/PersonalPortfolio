@@ -266,4 +266,40 @@ hr {
 .companyName {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.1rem;
+  margin-bottom: 100px;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  margin: 100px 0 100px 0;
+}
+
+.education {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.information :nth-child(1) {
+  line-height: 10rem;
+}
+
+.information p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.information h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.6rem;
 }
