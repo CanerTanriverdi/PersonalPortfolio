@@ -421,6 +421,11 @@ footer {
   right: 2%;
   border-radius: 3px;
   text-align: center;
+  box-shadow: 4px 4px 4px #000;
+}
+
+.button:active {
+  box-shadow: 0 0;
 }
 
 .button a {
