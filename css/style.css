@@ -8,8 +8,8 @@
 }
 
 body {
-  color: #66fcf1;
-  background-color: #0b0c10;
+  color: #000;
+  background-color: #e3e3e3;
 }
 
 header {
@@ -43,7 +43,7 @@ ul li {
 }
 
 ul li a {
-  color: #66fcf1;
+  color: #c60021;
   display: block;
   text-decoration: none;
   font-size: 14px;
@@ -52,7 +52,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #45a29e;
+  color: gray;
 }
 
 .logo {
@@ -72,7 +72,7 @@ ul li a:hover {
 }
 
 .logoName {
-  color: #66fcf1;
+  color: #c60021;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,7 +97,7 @@ ul li a:hover {
   display: inline-flex;
   width: 40px;
   height: 40px;
-  background: #66fcf1;
+  background: gray;
   font-size: 20px;
   color: #000;
   margin: 0 6px;
@@ -156,7 +156,7 @@ ul li a:hover {
 }
 
 .info {
-  color: #c5c6c7;
+  color: #000;
   width: 250px;
   font-size: 1.3rem;
   line-height: 2rem;
@@ -165,7 +165,7 @@ ul li a:hover {
 .info :nth-child(1) {
   font-family: 'Bebas Neue', cursive;
   font-size: 1rem;
-  color: #66fcf1;
+  color: #c60021;
 }
 
 .inside {
@@ -182,7 +182,7 @@ ul li a:hover {
   width: 75%;
   border-radius: 45%;
   border-style: solid;
-  border-color: #66fcf1;
+  border-color: gray;
   padding: 30px;
 }
 
@@ -196,7 +196,7 @@ ul li a:hover {
 }
 
 .career {
-  color: #c5c6c7;
+  color: #000;
   width: 250px;
   font-size: 4rem;
   line-height: 2rem;
@@ -204,7 +204,7 @@ ul li a:hover {
 }
 
 .career :nth-child(1) {
-  color: #66fcf1;
+  color: #c60021;
   font-family: 'Bebas Neue', cursive;
   font-size: 1rem;
   line-height: 1rem;
@@ -251,7 +251,7 @@ hr {
 }
 
 .skills {
-  background-color: #1f2833;
+  background-color: gray;
   border-radius: 40%;
   height: 250px;
   width: 150px;
@@ -270,7 +270,7 @@ hr {
 .skillPercent {
   font-family: 'Times New Roman', Times, serif;
   font-size: 3rem;
-  color: #c5c6c7;
+  color: #000;
 }
 
 .companyName {
@@ -304,7 +304,7 @@ hr {
 }
 
 .information p {
-  color: #c5c6c7;
+  color: #c60021;
   font-family: 'Bebas Neue', cursive;
   font-size: 1rem;
   margin-bottom: 3rem;
@@ -350,6 +350,7 @@ hr {
   font-family: 'Times New Roman', Times, serif;
   font-size: 3rem;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 footer {
@@ -376,7 +377,7 @@ footer {
   display: inline-flex;
   width: 40px;
   height: 40px;
-  background: #66fcf1;
+  background: gray;
   font-size: 20px;
   color: #000;
   margin: 0 6px;
@@ -413,7 +414,7 @@ footer {
 
 .button {
   position: fixed;
-  background-color: #66fcf1;
+  background-color: #c60021;
   width: 60px;
   height: 50px;
   line-height: 45px;
