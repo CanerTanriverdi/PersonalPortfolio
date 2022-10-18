@@ -17,6 +17,8 @@ header {
   justify-content: space-between;
   font-family: 'Bebas Neue', cursive;
   font-size: 1.3rem;
+  background-color: #1f2833;
+  height: 150px;
 }
 
 .menu {
