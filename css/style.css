@@ -17,7 +17,6 @@ header {
   justify-content: space-between;
   font-family: 'Bebas Neue', cursive;
   font-size: 1.3rem;
-  background-color: #1f2833;
   height: 150px;
 }
 
@@ -271,6 +270,7 @@ hr {
 .skillPercent {
   font-family: 'Times New Roman', Times, serif;
   font-size: 3rem;
+  color: #c5c6c7;
 }
 
 .companyName {
